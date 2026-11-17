@@ -4,22 +4,27 @@
   <img alt="Gabriel Henriques · Engenharia de Software · IBMEC" src="assets/header-dark.svg" width="100%">
 </picture>
 
-<p>
-  <a href="https://www.linkedin.com/in/gabriel-medeiros-henriques"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
-  <a href="mailto:gabrielmhenriques15@gmail.com"><img src="https://img.shields.io/badge/gabrielmhenriques15%40gmail.com-18181B?style=flat-square&logo=gmail&logoColor=white" alt="E-mail"></a>
+<p align="center">
+  <samp>
+    <a href="https://www.linkedin.com/in/gabriel-medeiros-henriques">linkedin</a> ·
+    <a href="mailto:gabrielmhenriques15@gmail.com">e-mail</a> ·
+    <a href="#projetos">projetos</a> ·
+    <a href="#stack">stack</a> ·
+    <a href="https://github.com/gmhenriquested/analisador-acoes">open source</a>
+  </samp>
 </p>
-
-### Sobre
-
-Gosto de transformar problemas reais em produto. Hoje estudo e construo **sistemas
-multiagente**: vários agentes de IA trabalhando juntos, usando ferramentas de verdade, com
-uma pessoa aprovando o que importa.
-
-<sub>I turn real problems into products. Today I study and build <b>multi-agent systems</b>: AI agents working together with real tools, with a human approving what matters.</sub>
 
 <br>
 
-### Projetos
+Estudo Engenharia de Software no IBMEC e construo produtos com **agentes de IA**: sistemas
+em que vários agentes trabalham juntos, usam ferramentas de verdade e pedem aprovação de
+uma pessoa no que importa. No backend uso **Java e Spring Boot**; no front, **TypeScript e Next.js**.
+
+<sub><i>Software Engineering student at IBMEC building products with AI agents: multi-agent systems that use real tools, with a human approving what matters.</i></sub>
+
+<br>
+
+### <samp>projetos</samp>
 
 <p>
   <picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-maestro-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/card-maestro-light.svg"><img alt="Maestro: equipe de agentes de IA que toca o dia a dia de uma empresa" src="assets/card-maestro-dark.svg" width="49%"></picture>
@@ -34,38 +39,25 @@ uma pessoa aprovando o que importa.
 
 <br>
 
-### Stack
+### <samp>stack</samp>
 
-<table>
-  <tr>
-    <td width="150"><b>Backend</b></td>
-    <td><picture><source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=java%2Cspring%2Cmaven%2Cpython%2Cfastapi%2Cnodejs&theme=dark"><source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=java%2Cspring%2Cmaven%2Cpython%2Cfastapi%2Cnodejs&theme=light"><img alt="Java, Spring, Maven, Python, FastAPI, Node.js" src="https://skillicons.dev/icons?i=java%2Cspring%2Cmaven%2Cpython%2Cfastapi%2Cnodejs&theme=dark" height="40"></picture><br><sub>Spring Data JPA · Spring Security · WebFlux · Thymeleaf · SQLAlchemy · Zod</sub></td>
-  </tr>
-  <tr>
-    <td><b>Frontend</b></td>
-    <td><picture><source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=ts%2Cjs%2Creact%2Cnextjs%2Ctailwind%2Chtml%2Ccss&theme=dark"><source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=ts%2Cjs%2Creact%2Cnextjs%2Ctailwind%2Chtml%2Ccss&theme=light"><img alt="TypeScript, JavaScript, React, Next.js, Tailwind, HTML, CSS" src="https://skillicons.dev/icons?i=ts%2Cjs%2Creact%2Cnextjs%2Ctailwind%2Chtml%2Ccss&theme=dark" height="40"></picture></td>
-  </tr>
-  <tr>
-    <td><b>IA</b></td>
-    <td><picture><source media="(prefers-color-scheme: dark)" srcset="assets/ia-logos-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/ia-logos-light.svg"><img alt="Claude, ChatGPT, Gemini, GitHub Copilot, Perplexity, DeepSeek, Grok, MCP" src="assets/ia-logos-dark.svg" height="40"></picture><br><sub>Claude · ChatGPT · Gemini · Copilot · Perplexity · DeepSeek · Grok · MCP</sub><br><sub>Claude Agent SDK · Composio · sistemas multiagente</sub></td>
-  </tr>
-  <tr>
-    <td><b>Dados e infra</b></td>
-    <td><picture><source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=postgres%2Csqlite%2Cdocker%2Cgit%2Cgithub%2Cgithubactions&theme=dark"><source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=postgres%2Csqlite%2Cdocker%2Cgit%2Cgithub%2Cgithubactions&theme=light"><img alt="PostgreSQL, SQLite, Docker, Git, GitHub, GitHub Actions" src="https://skillicons.dev/icons?i=postgres%2Csqlite%2Cdocker%2Cgit%2Cgithub%2Cgithubactions&theme=dark" height="40"></picture><br><sub>Drizzle ORM · Alembic · Neon</sub></td>
-  </tr>
-  <tr>
-    <td><b>Testes</b></td>
-    <td><sub>JUnit 5 · Mockito · AssertJ · JaCoCo · pytest</sub></td>
-  </tr>
-  <tr>
-    <td><b>No dia a dia</b></td>
-    <td><picture><source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=idea%2Cobsidian&theme=dark"><source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=idea%2Cobsidian&theme=light"><img alt="IntelliJ IDEA, Obsidian" src="https://skillicons.dev/icons?i=idea%2Cobsidian&theme=dark" height="40"></picture></td>
-  </tr>
-</table>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/stack-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/stack-light.svg"><img alt="Stack: Java, Spring, Python, FastAPI, TypeScript, React, Next.js, Claude, ChatGPT, Gemini, PostgreSQL, Docker e mais" src="assets/stack-dark.svg" width="100%"></picture>
 
 <br>
 
-### Agora
+### <samp>agora</samp>
 
-- Levando o **Maestro** do ambiente de teste para apps reais: e-mail, CRM e banco.
-- Construindo meu site de portfólio. <sub><i>Building my portfolio website.</i></sub>
+<samp>nov 2026</samp>&nbsp; Levando o **Maestro** do ambiente de teste para apps reais: e-mail, CRM e banco.<br>
+<samp>nov 2026</samp>&nbsp; Construindo meu site de portfólio.
+
+<br>
+
+<p align="center">
+  <samp>
+    <a href="https://www.linkedin.com/in/gabriel-medeiros-henriques">linkedin</a> ·
+    <a href="mailto:gabrielmhenriques15@gmail.com">e-mail</a> ·
+    <a href="#projetos">projetos</a> ·
+    <a href="#stack">stack</a> ·
+    <a href="https://github.com/gmhenriquested/analisador-acoes">open source</a>
+  </samp>
+</p>
