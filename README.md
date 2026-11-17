@@ -39,11 +39,11 @@ uma pessoa aprovando o que importa.
 <table>
   <tr>
     <td width="150"><b>Backend</b></td>
-    <td><picture><source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=java,spring,maven,python,fastapi,nodejs&theme=dark"><source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=java,spring,maven,python,fastapi,nodejs&theme=light"><img alt="Java, Spring, Maven, Python, FastAPI, Node.js" src="https://skillicons.dev/icons?i=java,spring,maven,python,fastapi,nodejs&theme=dark" height="40"></picture><br><sub>Spring Data JPA · Spring Security · WebFlux · Thymeleaf · SQLAlchemy · Zod</sub></td>
+    <td><picture><source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=java%2Cspring%2Cmaven%2Cpython%2Cfastapi%2Cnodejs&theme=dark"><source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=java%2Cspring%2Cmaven%2Cpython%2Cfastapi%2Cnodejs&theme=light"><img alt="Java, Spring, Maven, Python, FastAPI, Node.js" src="https://skillicons.dev/icons?i=java%2Cspring%2Cmaven%2Cpython%2Cfastapi%2Cnodejs&theme=dark" height="40"></picture><br><sub>Spring Data JPA · Spring Security · WebFlux · Thymeleaf · SQLAlchemy · Zod</sub></td>
   </tr>
   <tr>
     <td><b>Frontend</b></td>
-    <td><picture><source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=ts,js,react,nextjs,tailwind,html,css&theme=dark"><source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=ts,js,react,nextjs,tailwind,html,css&theme=light"><img alt="TypeScript, JavaScript, React, Next.js, Tailwind, HTML, CSS" src="https://skillicons.dev/icons?i=ts,js,react,nextjs,tailwind,html,css&theme=dark" height="40"></picture></td>
+    <td><picture><source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=ts%2Cjs%2Creact%2Cnextjs%2Ctailwind%2Chtml%2Ccss&theme=dark"><source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=ts%2Cjs%2Creact%2Cnextjs%2Ctailwind%2Chtml%2Ccss&theme=light"><img alt="TypeScript, JavaScript, React, Next.js, Tailwind, HTML, CSS" src="https://skillicons.dev/icons?i=ts%2Cjs%2Creact%2Cnextjs%2Ctailwind%2Chtml%2Ccss&theme=dark" height="40"></picture></td>
   </tr>
   <tr>
     <td><b>IA</b></td>
@@ -51,7 +51,7 @@ uma pessoa aprovando o que importa.
   </tr>
   <tr>
     <td><b>Dados e infra</b></td>
-    <td><picture><source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=postgres,sqlite,docker,git,github,githubactions&theme=dark"><source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=postgres,sqlite,docker,git,github,githubactions&theme=light"><img alt="PostgreSQL, SQLite, Docker, Git, GitHub, GitHub Actions" src="https://skillicons.dev/icons?i=postgres,sqlite,docker,git,github,githubactions&theme=dark" height="40"></picture><br><sub>Drizzle ORM · Alembic · Neon</sub></td>
+    <td><picture><source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=postgres%2Csqlite%2Cdocker%2Cgit%2Cgithub%2Cgithubactions&theme=dark"><source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=postgres%2Csqlite%2Cdocker%2Cgit%2Cgithub%2Cgithubactions&theme=light"><img alt="PostgreSQL, SQLite, Docker, Git, GitHub, GitHub Actions" src="https://skillicons.dev/icons?i=postgres%2Csqlite%2Cdocker%2Cgit%2Cgithub%2Cgithubactions&theme=dark" height="40"></picture><br><sub>Drizzle ORM · Alembic · Neon</sub></td>
   </tr>
   <tr>
     <td><b>Testes</b></td>
@@ -59,7 +59,7 @@ uma pessoa aprovando o que importa.
   </tr>
   <tr>
     <td><b>No dia a dia</b></td>
-    <td><picture><source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=idea,obsidian&theme=dark"><source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=idea,obsidian&theme=light"><img alt="IntelliJ IDEA, Obsidian" src="https://skillicons.dev/icons?i=idea,obsidian&theme=dark" height="40"></picture></td>
+    <td><picture><source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=idea%2Cobsidian&theme=dark"><source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=idea%2Cobsidian&theme=light"><img alt="IntelliJ IDEA, Obsidian" src="https://skillicons.dev/icons?i=idea%2Cobsidian&theme=dark" height="40"></picture></td>
   </tr>
 </table>
 
