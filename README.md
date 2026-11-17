@@ -8,6 +8,9 @@
 
 📍 Brasil &nbsp;·&nbsp; 🇧🇷 Português &nbsp;·&nbsp; 🇺🇸 English
 
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/gabriel-medeiros-henriques)
+[![E-mail](https://img.shields.io/badge/E--mail-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:gabrielmhenriques15@gmail.com)
+
 </div>
 
 ---
@@ -51,3 +54,10 @@ Backend in **Java + Spring Boot**, frontend in **TypeScript + Next.js**.*
 
 - Levando o **Maestro** do ambiente de teste para apps reais (e-mail, CRM, banco).
 - Construindo meu site de portfólio. *Building my portfolio website.*
+
+### 📫 Contato · Contact
+
+Aberto a estágio, projetos e boas conversas sobre agentes de IA.
+*Open to internships, projects and good conversations about AI agents.*
+
+[LinkedIn](https://www.linkedin.com/in/gabriel-medeiros-henriques) · [gabrielmhenriques15@gmail.com](mailto:gabrielmhenriques15@gmail.com)
