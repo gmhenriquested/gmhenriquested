@@ -105,35 +105,8 @@ def card(p, theme):
 </svg>'''
 
 
-AI = ["Claude API", "Claude Agent SDK", "MCP", "Composio", "Multiagentes"]
-
-
-def ai_chips(theme):
-    # mesmo tamanho dos ícones do skillicons (48px de altura)
-    t = THEMES[theme]
-    box = "#242938" if theme == "dark" else "#F4F2ED"
-    fg = "#F2F3F5" if theme == "dark" else "#1F2328"
-    x, parts = 0, []
-    for i, label in enumerate(AI):
-        w = len(label) * 8.6 + 52
-        parts.append(f'<rect x="{x}" y="0" width="{w:.0f}" height="48" rx="12" fill="{box}"/>'
-                     f'<circle cx="{x + 22}" cy="24" r="6" fill="url(#g-{theme})" class="d{i % 3}"/>'
-                     f'<text x="{x + 36}" y="29.5" class="c">{escape(label)}</text>')
-        x += w + 8
-    total = x - 8
-    return f'''<svg xmlns="http://www.w3.org/2000/svg" width="{total:.0f}" height="48" viewBox="0 0 {total:.0f} 48" role="img" aria-label="{", ".join(AI)}">
-<style>
-.c{{font:600 15px {SANS};fill:{fg}}}
-@keyframes p{{0%,100%{{opacity:1}}50%{{opacity:.4}}}}
-.d0{{animation:p 2.4s ease-in-out infinite}} .d1{{animation:p 2.4s .8s ease-in-out infinite}} .d2{{animation:p 2.4s 1.6s ease-in-out infinite}}
-@media (prefers-reduced-motion: reduce){{*{{animation:none!important}}}}
-</style>
-<defs><linearGradient id="g-{theme}" x1="0" x2="1"><stop offset="0" stop-color="#D97757"/><stop offset="1" stop-color="#7C5CFF"/></linearGradient></defs>
-{"".join(parts)}
-</svg>'''
 
 
 for theme in THEMES:
     for p in PROJECTS:
         open(f'{OUT}/card-{p["slug"]}-{theme}.svg', "w").write(card(p, theme))
-    open(f"{OUT}/ai-{theme}.svg", "w").write(ai_chips(theme))
