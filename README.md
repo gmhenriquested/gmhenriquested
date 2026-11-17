@@ -47,7 +47,7 @@ uma pessoa aprovando o que importa.
   </tr>
   <tr>
     <td><b>IA</b></td>
-    <td><picture><source media="(prefers-color-scheme: dark)" srcset="assets/ai-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/ai-light.svg"><img alt="Claude, ChatGPT, Gemini, GitHub Copilot, Perplexity, DeepSeek, Grok, MCP" src="assets/ai-dark.svg" height="40"></picture><br><sub>Claude · ChatGPT · Gemini · Copilot · Perplexity · DeepSeek · Grok · MCP</sub><br><sub>Claude Agent SDK · Composio · sistemas multiagente</sub></td>
+    <td><picture><source media="(prefers-color-scheme: dark)" srcset="assets/ia-logos-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/ia-logos-light.svg"><img alt="Claude, ChatGPT, Gemini, GitHub Copilot, Perplexity, DeepSeek, Grok, MCP" src="assets/ia-logos-dark.svg" height="40"></picture><br><sub>Claude · ChatGPT · Gemini · Copilot · Perplexity · DeepSeek · Grok · MCP</sub><br><sub>Claude Agent SDK · Composio · sistemas multiagente</sub></td>
   </tr>
   <tr>
     <td><b>Dados e infra</b></td>

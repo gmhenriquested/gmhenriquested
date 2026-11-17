@@ -40,4 +40,4 @@ for theme, (box, fg) in THEMES.items():
     alt = ", ".join(n for _, n, _ in ICONS)
     svg = (f'<svg xmlns="http://www.w3.org/2000/svg" width="{w:.2f}" height="{TILE}" '
            f'viewBox="0 0 {w:.2f} {TILE}" role="img" aria-label="{alt}">{"".join(parts)}</svg>')
-    open(f"ai-{theme}.svg", "w").write(svg)
+    open(f"ia-logos-{theme}.svg", "w").write(svg)
