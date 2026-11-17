@@ -9,8 +9,6 @@
 @keyframes drift2{0%,100%{transform:translate(0,0)}50%{transform:translate(-70px,-15px)}}
 @keyframes drift3{0%,100%{transform:translate(0,0)}50%{transform:translate(40px,-25px)}}
 .o1{animation:drift1 14s ease-in-out infinite} .o2{animation:drift2 18s ease-in-out infinite} .o3{animation:drift3 16s ease-in-out infinite}
-@keyframes rise{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
-.in1{animation:rise .9s ease-out both} .in2{animation:rise .9s .25s ease-out both} .in3{animation:rise .9s .5s ease-out both}
 @keyframes pulse{0%,100%{opacity:1}50%{opacity:.35}}
 .dot{animation:pulse 2.4s ease-in-out infinite}
 @keyframes v0{0%,0.00%{opacity:0}0.01%,33.32%{opacity:1}33.33%,100%{opacity:0}}
@@ -54,10 +52,10 @@
 </g>
 </g>
 <rect x=".5" y=".5" width="1199" height="319" rx="20" fill="none" stroke="#1C2129"/>
-<g class="in1"><circle class="dot" cx="88" cy="74" r="5" fill="#22C55E"/><text x="104" y="80" class="sub" style="font-size:16px;letter-spacing:2px">DISPONÍVEL PARA ESTÁGIO · OPEN TO INTERNSHIPS</text></g>
-<text x="80" y="152" class="name in2" fill="url(#grad)">Gabriel Henriques</text>
-<text x="82" y="190" class="sub in2">Engenharia de Software · IBMEC · Brasil</text>
-<g class="in3"><text x="82" y="232" class="mono" fill="#7C5CFF">~ $</text>
+<g><circle class="dot" cx="88" cy="74" r="5" fill="#22C55E"/><text x="104" y="80" class="sub" style="font-size:16px;letter-spacing:2px">DISPONÍVEL PARA ESTÁGIO · OPEN TO INTERNSHIPS</text></g>
+<text x="80" y="152" class="name" fill="url(#grad)">Gabriel Henriques</text>
+<text x="82" y="190" class="sub">Engenharia de Software · IBMEC · Brasil</text>
+<g><text x="82" y="232" class="mono" fill="#7C5CFF">~ $</text>
 <clipPath id="cp0"><rect class="r0" x="140" y="208" width="462.0" height="34"/></clipPath>
 <g class="g0"><text x="140" y="232" class="mono" fill="#F2F3F5" clip-path="url(#cp0)">construo produtos com agentes de IA</text>
 <rect class="k0 cur" x="142" y="213" width="11" height="24" rx="1.5" fill="#22D3EE"/></g><clipPath id="cp1"><rect class="r1" x="140" y="208" width="369.6" height="34"/></clipPath>

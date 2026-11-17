@@ -39,8 +39,6 @@ def svg(theme):
 @keyframes drift2{{0%,100%{{transform:translate(0,0)}}50%{{transform:translate(-70px,-15px)}}}}
 @keyframes drift3{{0%,100%{{transform:translate(0,0)}}50%{{transform:translate(40px,-25px)}}}}
 .o1{{animation:drift1 14s ease-in-out infinite}} .o2{{animation:drift2 18s ease-in-out infinite}} .o3{{animation:drift3 16s ease-in-out infinite}}
-@keyframes rise{{from{{opacity:0;transform:translateY(8px)}}to{{opacity:1;transform:none}}}}
-.in1{{animation:rise .9s ease-out both}} .in2{{animation:rise .9s .25s ease-out both}} .in3{{animation:rise .9s .5s ease-out both}}
 @keyframes pulse{{0%,100%{{opacity:1}}50%{{opacity:.35}}}}
 .dot{{animation:pulse 2.4s ease-in-out infinite}}
 {css_s}
@@ -67,10 +65,10 @@ def svg(theme):
 </g>
 </g>
 <rect x=".5" y=".5" width="1199" height="319" rx="20" fill="none" stroke="{line}"/>
-<g class="in1"><circle class="dot" cx="88" cy="74" r="5" fill="#22C55E"/><text x="104" y="80" class="sub" style="font-size:16px;letter-spacing:2px">DISPONÍVEL PARA ESTÁGIO · OPEN TO INTERNSHIPS</text></g>
-<text x="80" y="152" class="name in2" fill="url(#grad)">Gabriel Henriques</text>
-<text x="82" y="190" class="sub in2">Engenharia de Software · IBMEC · Brasil</text>
-<g class="in3"><text x="82" y="{Y}" class="mono" fill="{acc1}">~ $</text>
+<g><circle class="dot" cx="88" cy="74" r="5" fill="#22C55E"/><text x="104" y="80" class="sub" style="font-size:16px;letter-spacing:2px">DISPONÍVEL PARA ESTÁGIO · OPEN TO INTERNSHIPS</text></g>
+<text x="80" y="152" class="name" fill="url(#grad)">Gabriel Henriques</text>
+<text x="82" y="190" class="sub">Engenharia de Software · IBMEC · Brasil</text>
+<g><text x="82" y="{Y}" class="mono" fill="{acc1}">~ $</text>
 {"".join(groups)}
 </g>
 </svg>'''
