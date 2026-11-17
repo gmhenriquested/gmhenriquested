@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-label="Gabriel Henriques. Engenharia de Software no IBMEC. Construo produtos com agentes de IA.">
+<style>
+.name{font:700 64px -apple-system,BlinkMacSystemFont,"Segoe UI",Inter,Helvetica,Arial,sans-serif;letter-spacing:-1.5px}
+.sub{font:500 20px -apple-system,BlinkMacSystemFont,"Segoe UI",Inter,Helvetica,Arial,sans-serif;fill:#8B93A1}
+.mono{font:500 22px "SF Mono",ui-monospace,Menlo,Consolas,"Liberation Mono",monospace;white-space:pre}
+@keyframes blink{0%,49%{opacity:1}50%,100%{opacity:0}}
+.blink{animation:blink 1s steps(1) infinite}
+@keyframes drift1{0%,100%{transform:translate(0,0)}50%{transform:translate(60px,20px)}}
+@keyframes drift2{0%,100%{transform:translate(0,0)}50%{transform:translate(-70px,-15px)}}
+@keyframes drift3{0%,100%{transform:translate(0,0)}50%{transform:translate(40px,-25px)}}
+.o1{animation:drift1 14s ease-in-out infinite} .o2{animation:drift2 18s ease-in-out infinite} .o3{animation:drift3 16s ease-in-out infinite}
+@keyframes rise{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+.in1{animation:rise .9s ease-out both} .in2{animation:rise .9s .25s ease-out both} .in3{animation:rise .9s .5s ease-out both}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.35}}
+.dot{animation:pulse 2.4s ease-in-out infinite}
+@keyframes v0{0%,0.00%{opacity:0}0.01%,33.32%{opacity:1}33.33%,100%{opacity:0}}
+@keyframes t0{0%{transform:scaleX(0)}0.00%{transform:scaleX(0);animation-timing-function:steps(35,end)}11.67%{transform:scaleX(1)}28.67%{transform:scaleX(1);animation-timing-function:steps(35,end)}33.33%,100%{transform:scaleX(0)}}
+@keyframes c0{0%{transform:translateX(0)}0.00%{transform:translateX(0);animation-timing-function:steps(35,end)}11.67%{transform:translateX(462.0px)}28.67%{transform:translateX(462.0px);animation-timing-function:steps(35,end)}33.33%,100%{transform:translateX(0)}}
+.g0{opacity:0;animation:v0 12s linear infinite}
+.r0{transform-box:fill-box;transform-origin:left;animation:t0 12s linear infinite}
+.k0{animation:c0 12s linear infinite}
+@keyframes v1{0%,33.33%{opacity:0}33.34%,66.66%{opacity:1}66.67%,100%{opacity:0}}
+@keyframes t1{0%{transform:scaleX(0)}33.33%{transform:scaleX(0);animation-timing-function:steps(28,end)}45.00%{transform:scaleX(1)}62.00%{transform:scaleX(1);animation-timing-function:steps(28,end)}66.67%,100%{transform:scaleX(0)}}
+@keyframes c1{0%{transform:translateX(0)}33.33%{transform:translateX(0);animation-timing-function:steps(28,end)}45.00%{transform:translateX(369.6px)}62.00%{transform:translateX(369.6px);animation-timing-function:steps(28,end)}66.67%,100%{transform:translateX(0)}}
+.g1{opacity:0;animation:v1 12s linear infinite}
+.r1{transform-box:fill-box;transform-origin:left;animation:t1 12s linear infinite}
+.k1{animation:c1 12s linear infinite}
+@keyframes v2{0%,66.67%{opacity:0}66.68%,99.99%{opacity:1}100.00%,100%{opacity:0}}
+@keyframes t2{0%{transform:scaleX(0)}66.67%{transform:scaleX(0);animation-timing-function:steps(41,end)}78.33%{transform:scaleX(1)}95.33%{transform:scaleX(1);animation-timing-function:steps(41,end)}100.00%,100%{transform:scaleX(0)}}
+@keyframes c2{0%{transform:translateX(0)}66.67%{transform:translateX(0);animation-timing-function:steps(41,end)}78.33%{transform:translateX(541.2px)}95.33%{transform:translateX(541.2px);animation-timing-function:steps(41,end)}100.00%,100%{transform:translateX(0)}}
+.g2{opacity:0;animation:v2 12s linear infinite}
+.r2{transform-box:fill-box;transform-origin:left;animation:t2 12s linear infinite}
+.k2{animation:c2 12s linear infinite}
+@media (prefers-reduced-motion: reduce){*{animation:none!important} .g0{opacity:1} .r0{transform:none}}
+</style>
+<defs>
+<linearGradient id="grad" x1="0" y1="0" x2="1" y2="0">
+<stop offset="0" stop-color="#7C5CFF"><animate attributeName="stop-color" values="#7C5CFF;#22D3EE;#F472B6;#7C5CFF" dur="10s" repeatCount="indefinite"/></stop>
+<stop offset="1" stop-color="#22D3EE"><animate attributeName="stop-color" values="#22D3EE;#F472B6;#7C5CFF;#22D3EE" dur="10s" repeatCount="indefinite"/></stop>
+</linearGradient>
+<filter id="blur" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="60"/></filter>
+<clipPath id="card"><rect width="1200" height="320" rx="20"/></clipPath>
+<pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#1C2129" stroke-width="1"/></pattern>
+<radialGradient id="fade" cx="0.75" cy="0.5" r="0.7"><stop offset="0" stop-color="#fff" stop-opacity="1"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></radialGradient>
+<mask id="gridmask"><rect width="1200" height="320" fill="url(#fade)"/></mask>
+</defs>
+<g clip-path="url(#card)">
+<rect width="1200" height="320" fill="#0A0C10"/>
+<rect width="1200" height="320" fill="url(#grid)" mask="url(#gridmask)" opacity=".7"/>
+<g filter="url(#blur)" opacity=".55">
+<circle class="o1" cx="900" cy="90" r="120" fill="#7C5CFF"/>
+<circle class="o2" cx="1060" cy="250" r="110" fill="#22D3EE"/>
+<circle class="o3" cx="760" cy="280" r="90" fill="#F472B6"/>
+</g>
+</g>
+<rect x=".5" y=".5" width="1199" height="319" rx="20" fill="none" stroke="#1C2129"/>
+<g class="in1"><circle class="dot" cx="88" cy="74" r="5" fill="#22C55E"/><text x="104" y="80" class="sub" style="font-size:16px;letter-spacing:2px">DISPONÍVEL PARA ESTÁGIO · OPEN TO INTERNSHIPS</text></g>
+<text x="80" y="152" class="name in2" fill="url(#grad)">Gabriel Henriques</text>
+<text x="82" y="190" class="sub in2">Engenharia de Software · IBMEC · Brasil</text>
+<g class="in3"><text x="82" y="232" class="mono" fill="#7C5CFF">~ $</text>
+<clipPath id="cp0"><rect class="r0" x="140" y="208" width="462.0" height="34"/></clipPath>
+<g class="g0"><text x="140" y="232" class="mono" fill="#F2F3F5" clip-path="url(#cp0)">construo produtos com agentes de IA</text>
+<rect class="k0 cur" x="142" y="213" width="11" height="24" rx="1.5" fill="#22D3EE"/></g><clipPath id="cp1"><rect class="r1" x="140" y="208" width="369.6" height="34"/></clipPath>
+<g class="g1"><text x="140" y="232" class="mono" fill="#F2F3F5" clip-path="url(#cp1)">building multi-agent systems</text>
+<rect class="k1 cur" x="142" y="213" width="11" height="24" rx="1.5" fill="#22D3EE"/></g><clipPath id="cp2"><rect class="r2" x="140" y="208" width="541.2" height="34"/></clipPath>
+<g class="g2"><text x="140" y="232" class="mono" fill="#F2F3F5" clip-path="url(#cp2)">java · spring boot · typescript · next.js</text>
+<rect class="k2 cur" x="142" y="213" width="11" height="24" rx="1.5" fill="#22D3EE"/></g>
+</g>
+</svg>

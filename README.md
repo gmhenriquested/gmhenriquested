@@ -1,63 +1,75 @@
-<div align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/header-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/header-light.svg">
+  <img alt="Gabriel Henriques · Engenharia de Software · IBMEC" src="assets/header-dark.svg" width="100%">
+</picture>
 
-# Gabriel Henriques
-
-**Estudante de Engenharia de Software no IBMEC · construindo produtos com agentes de IA**
-<br>
-*Software Engineering student at IBMEC · building products powered by AI agents*
-
-📍 Brasil &nbsp;·&nbsp; 🇧🇷 Português &nbsp;·&nbsp; 🇺🇸 English
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/gabriel-medeiros-henriques)
-[![E-mail](https://img.shields.io/badge/E--mail-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:gabrielmhenriques15@gmail.com)
-
-</div>
-
----
-
-### 👋 Sobre mim · About me
+<p>
+  <a href="https://www.linkedin.com/in/gabriel-medeiros-henriques"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+  <a href="mailto:gabrielmhenriques15@gmail.com"><img src="https://img.shields.io/badge/gabrielmhenriques15%40gmail.com-18181B?style=flat-square&logo=gmail&logoColor=white" alt="E-mail"></a>
+</p>
 
 Gosto de transformar problemas reais em produto. Hoje meu foco está em **sistemas
-multiagente**: vários agentes de IA trabalhando juntos, com ferramentas reais e um humano
-aprovando o que importa. No backend, minha base é **Java + Spring Boot**; no front,
-**TypeScript + Next.js**.
+multiagente**: vários agentes de IA trabalhando juntos, usando ferramentas reais, com uma
+pessoa aprovando o que importa. No backend uso **Java e Spring Boot**; no front,
+**TypeScript e Next.js**.
 
-*I like turning real problems into products. Right now I focus on **multi-agent systems**:
-several AI agents working together with real tools, with a human approving what matters.
-Backend in **Java + Spring Boot**, frontend in **TypeScript + Next.js**.*
+<sub>I turn real problems into products. My focus today is <b>multi-agent systems</b>: AI agents working together with real tools, with a human approving what matters. Backend in Java and Spring Boot, frontend in TypeScript and Next.js.</sub>
 
-### 🚀 Projetos em destaque · Featured projects
+<br>
 
-| Projeto | O que é · What it is | Stack |
-|---|---|---|
-| 🎼 **Maestro** | Uma equipe de agentes de IA que toca a operação de uma empresa, com aprovação humana nas decisões de dinheiro. *A team of AI agents that runs a company's day to day, with human approval on money decisions.* | Next.js · TypeScript · Claude |
-| 🎵 **Chorus** | Espaço onde os agentes de IA de um time colaboram usando os apps que o time já usa (GitHub, Slack, Jira). *A workspace where a team's AI agents collaborate using the apps the team already uses.* | Next.js · MCP · Composio |
-| 🛡️ **Lastro** | Conformidade do split payment da Reforma Tributária (IBS/CBS) para empresas sem time fiscal. *Tax compliance for Brazil's new split payment system.* | Python · PostgreSQL |
-| 📊 [**Analisador de Ações**](https://github.com/gmhenriquested/analisador-acoes) | Nota de 0 a 100 para ações da B3 a partir de 7 indicadores fundamentalistas. *Scores Brazilian stocks from 7 fundamental indicators.* | Java 17 · Spring Boot · 29 testes |
+### Projetos · Projects
 
-<sub>🔒 Maestro, Chorus e Lastro estão em desenvolvimento em repositórios privados. Código e demo sob consulta. · <i>Private repos, code and demo available on request.</i></sub>
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <b>Maestro</b>&nbsp;&nbsp;<sub><code>Next.js</code> <code>TypeScript</code> <code>Claude Agent SDK</code></sub>
+      <br><br>
+      Uma equipe de agentes de IA que toca o dia a dia de uma empresa. Cada agente tem seu papel, eles passam tarefas entre si e pedem aprovação antes de mexer com dinheiro.
+      <br><br>
+      <sub><i>A team of AI agents that runs a company's day to day, with human approval on money decisions.</i></sub>
+    </td>
+    <td width="50%" valign="top">
+      <b>Chorus</b>&nbsp;&nbsp;<sub><code>Next.js</code> <code>MCP</code> <code>Composio</code></sub>
+      <br><br>
+      Um espaço onde os agentes de IA de um time trabalham juntos usando os apps que o time já usa, como GitHub, Slack e Jira.
+      <br><br>
+      <sub><i>A shared workspace where a team's AI agents collaborate inside the tools the team already uses.</i></sub>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <b>Lastro</b>&nbsp;&nbsp;<sub><code>Python</code> <code>PostgreSQL</code></sub>
+      <br><br>
+      Ajuda empresas sem time fiscal a cumprir o novo split payment da Reforma Tributária (IBS/CBS), com garantia em caso de erro.
+      <br><br>
+      <sub><i>Tax compliance for Brazil's new split payment system, backed by insurance.</i></sub>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://github.com/gmhenriquested/analisador-acoes"><b>Analisador de Ações</b></a>&nbsp;&nbsp;<sub><code>Java 17</code> <code>Spring Boot</code> <code>29 testes</code></sub>
+      <br><br>
+      Dá uma nota de 0 a 100 para ações da B3 a partir de 7 indicadores fundamentalistas, com explicação de cada um.
+      <br><br>
+      <sub><i>Scores Brazilian stocks from 7 fundamental indicators. Open source.</i></sub>
+    </td>
+  </tr>
+</table>
 
-### 🛠️ Ferramentas · Tech
+<sub>Maestro, Chorus e Lastro estão em desenvolvimento em repositórios privados. Código e demo sob consulta. · <i>Private repos, code and demo on request.</i></sub>
 
-![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
-![Spring Boot](https://img.shields.io/badge/Spring%20Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
-![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![Claude](https://img.shields.io/badge/Claude-D97757?style=flat-square&logo=anthropic&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+<br>
 
-### 🌱 Agora · Now
+### Ferramentas · Stack
 
-- Levando o **Maestro** do ambiente de teste para apps reais (e-mail, CRM, banco).
-- Construindo meu site de portfólio. *Building my portfolio website.*
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=java,spring,ts,nextjs,react,python,postgres,docker,git&theme=dark&perline=9">
+  <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=java,spring,ts,nextjs,react,python,postgres,docker,git&theme=light&perline=9">
+  <img alt="Java, Spring, TypeScript, Next.js, React, Python, PostgreSQL, Docker, Git" src="https://skillicons.dev/icons?i=java,spring,ts,nextjs,react,python,postgres,docker,git&theme=dark&perline=9">
+</picture>
 
-### 📫 Contato · Contact
+<br>
 
-Aberto a estágio, projetos e boas conversas sobre agentes de IA.
-*Open to internships, projects and good conversations about AI agents.*
+### Agora · Now
 
-[LinkedIn](https://www.linkedin.com/in/gabriel-medeiros-henriques) · [gabrielmhenriques15@gmail.com](mailto:gabrielmhenriques15@gmail.com)
+- Levando o **Maestro** do ambiente de teste para apps reais: e-mail, CRM e banco.
+- Construindo meu site de portfólio. <sub><i>Building my portfolio website.</i></sub>
