@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="300" viewBox="0 0 600 300" role="img" aria-label="Lastro: Ajuda empresas sem time fiscal a cumprir o novo split payment da Reforma Tributária (IBS/CBS), com garantia em caso de erro.">
+<style>
+.title{font:700 30px -apple-system,BlinkMacSystemFont,"Segoe UI",Inter,Helvetica,Arial,sans-serif;letter-spacing:-.6px;fill:#111318}
+.desc{font:400 18px -apple-system,BlinkMacSystemFont,"Segoe UI",Inter,Helvetica,Arial,sans-serif;fill:#4B5260}
+.en{font:italic 400 14px -apple-system,BlinkMacSystemFont,"Segoe UI",Inter,Helvetica,Arial,sans-serif;fill:#6B7280}
+.tag{font:500 14px "SF Mono",ui-monospace,Menlo,Consolas,"Liberation Mono",monospace;fill:#3A404C}
+.status{font:600 11px -apple-system,BlinkMacSystemFont,"Segoe UI",Inter,Helvetica,Arial,sans-serif;letter-spacing:1.4px;fill:#4B5260}
+@keyframes drift{0%,100%{transform:translate(0,0)}50%{transform:translate(-40px,18px)}}
+.orb{animation:drift 14s ease-in-out infinite}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.35}}
+.dot{animation:pulse 2.4s ease-in-out infinite}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<defs>
+<linearGradient id="bar-lastro-light" x1="0" x2="1"><stop offset="0" stop-color="#F59E0B"/><stop offset="1" stop-color="#F472B6"/></linearGradient>
+<filter id="blur-lastro-light" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="50"/></filter>
+<clipPath id="clip-lastro-light"><rect width="600" height="300" rx="18"/></clipPath>
+</defs>
+<g clip-path="url(#clip-lastro-light)">
+<rect width="600" height="300" fill="#FAFAF8"/>
+<g filter="url(#blur-lastro-light)" opacity=".20"><circle class="orb" cx="540" cy="40" r="95" fill="#F59E0B"/><circle class="orb" cx="610" cy="150" r="70" fill="#F472B6"/></g>
+<rect width="600" height="4" fill="url(#bar-lastro-light)"/>
+</g>
+<rect x=".5" y=".5" width="599" height="299" rx="18" fill="none" stroke="#E4E5E9"/>
+<rect x="32" y="34" width="146" height="24" rx="12" fill="#F0F1F3" stroke="#E4E5E9"/>
+<circle class="dot" cx="46" cy="46" r="4" fill="#F59E0B"/>
+<text x="56" y="50" class="status">MVP · PRIVADO</text>
+<text x="32" y="98" class="title">Lastro</text>
+
+<text x="32" y="132" class="desc">Ajuda empresas sem time fiscal a cumprir o novo</text><text x="32" y="160" class="desc">split payment da Reforma Tributária (IBS/CBS),</text><text x="32" y="188" class="desc">com garantia em caso de erro.</text>
+<text x="32" y="224" class="en">Insurance-backed tax compliance for Brazil&#x27;s split payment.</text>
+<rect x="32" y="244" width="76" height="30" rx="15" fill="#F0F1F3" stroke="#E4E5E9"/><text x="70" y="264" text-anchor="middle" class="tag">Python</text><rect x="116.08" y="244" width="85" height="30" rx="15" fill="#F0F1F3" stroke="#E4E5E9"/><text x="158" y="264" text-anchor="middle" class="tag">FastAPI</text><rect x="208.83999999999997" y="244" width="111" height="30" rx="15" fill="#F0F1F3" stroke="#E4E5E9"/><text x="264" y="264" text-anchor="middle" class="tag">PostgreSQL</text><rect x="327.64" y="244" width="85" height="30" rx="15" fill="#F0F1F3" stroke="#E4E5E9"/><text x="370" y="264" text-anchor="middle" class="tag">Alembic</text>
+</svg>

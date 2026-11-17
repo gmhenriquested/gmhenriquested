@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="300" viewBox="0 0 600 300" role="img" aria-label="Analisador de Ações: Dá uma nota de 0 a 100 para ações da B3 a partir de 7 indicadores fundamentalistas, explicando cada um deles.">
+<style>
+.title{font:700 30px -apple-system,BlinkMacSystemFont,"Segoe UI",Inter,Helvetica,Arial,sans-serif;letter-spacing:-.6px;fill:#F2F3F5}
+.desc{font:400 18px -apple-system,BlinkMacSystemFont,"Segoe UI",Inter,Helvetica,Arial,sans-serif;fill:#9AA3B2}
+.en{font:italic 400 14px -apple-system,BlinkMacSystemFont,"Segoe UI",Inter,Helvetica,Arial,sans-serif;fill:#6B7280}
+.tag{font:500 14px "SF Mono",ui-monospace,Menlo,Consolas,"Liberation Mono",monospace;fill:#C9D1DC}
+.status{font:600 11px -apple-system,BlinkMacSystemFont,"Segoe UI",Inter,Helvetica,Arial,sans-serif;letter-spacing:1.4px;fill:#9AA3B2}
+@keyframes drift{0%,100%{transform:translate(0,0)}50%{transform:translate(-40px,18px)}}
+.orb{animation:drift 14s ease-in-out infinite}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.35}}
+.dot{animation:pulse 2.4s ease-in-out infinite}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<defs>
+<linearGradient id="bar-analisador-dark" x1="0" x2="1"><stop offset="0" stop-color="#22C55E"/><stop offset="1" stop-color="#22D3EE"/></linearGradient>
+<filter id="blur-analisador-dark" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="50"/></filter>
+<clipPath id="clip-analisador-dark"><rect width="600" height="300" rx="18"/></clipPath>
+</defs>
+<g clip-path="url(#clip-analisador-dark)">
+<rect width="600" height="300" fill="#0A0C10"/>
+<g filter="url(#blur-analisador-dark)" opacity=".45"><circle class="orb" cx="540" cy="40" r="95" fill="#22C55E"/><circle class="orb" cx="610" cy="150" r="70" fill="#22D3EE"/></g>
+<rect width="600" height="4" fill="url(#bar-analisador-dark)"/>
+</g>
+<rect x=".5" y=".5" width="599" height="299" rx="18" fill="none" stroke="#1F2430"/>
+<rect x="32" y="34" width="129" height="24" rx="12" fill="#141821" stroke="#1F2430"/>
+<circle class="dot" cx="46" cy="46" r="4" fill="#22C55E"/>
+<text x="56" y="50" class="status">OPEN SOURCE</text>
+<text x="32" y="98" class="title">Analisador de Ações</text>
+<g class="arrow"><circle cx="556" cy="56" r="18" fill="#141821" stroke="#1F2430"/><path d="M550 62 L562 50 M553 50 H562 V59" stroke="#F2F3F5" stroke-width="2" fill="none" stroke-linecap="round"/></g>
+<text x="32" y="132" class="desc">Dá uma nota de 0 a 100 para ações da B3 a partir</text><text x="32" y="160" class="desc">de 7 indicadores fundamentalistas, explicando</text><text x="32" y="188" class="desc">cada um deles.</text>
+<text x="32" y="224" class="en">Scores Brazilian stocks from 7 fundamental indicators.</text>
+<rect x="32" y="244" width="85" height="30" rx="15" fill="#141821" stroke="#1F2430"/><text x="74" y="264" text-anchor="middle" class="tag">Java 17</text><rect x="124.75999999999999" y="244" width="119" height="30" rx="15" fill="#141821" stroke="#1F2430"/><text x="184" y="264" text-anchor="middle" class="tag">Spring Boot</text><rect x="252.24" y="244" width="85" height="30" rx="15" fill="#141821" stroke="#1F2430"/><text x="295" y="264" text-anchor="middle" class="tag">WebFlux</text><rect x="345.0" y="244" width="102" height="30" rx="15" fill="#141821" stroke="#1F2430"/><text x="396" y="264" text-anchor="middle" class="tag">29 testes</text>
+</svg>

@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="300" viewBox="0 0 600 300" role="img" aria-label="Chorus: Um espaço onde os agentes de IA de um time trabalham juntos dentro dos apps que o time já usa, como GitHub, Slack e Jira.">
+<style>
+.title{font:700 30px -apple-system,BlinkMacSystemFont,"Segoe UI",Inter,Helvetica,Arial,sans-serif;letter-spacing:-.6px;fill:#F2F3F5}
+.desc{font:400 18px -apple-system,BlinkMacSystemFont,"Segoe UI",Inter,Helvetica,Arial,sans-serif;fill:#9AA3B2}
+.en{font:italic 400 14px -apple-system,BlinkMacSystemFont,"Segoe UI",Inter,Helvetica,Arial,sans-serif;fill:#6B7280}
+.tag{font:500 14px "SF Mono",ui-monospace,Menlo,Consolas,"Liberation Mono",monospace;fill:#C9D1DC}
+.status{font:600 11px -apple-system,BlinkMacSystemFont,"Segoe UI",Inter,Helvetica,Arial,sans-serif;letter-spacing:1.4px;fill:#9AA3B2}
+@keyframes drift{0%,100%{transform:translate(0,0)}50%{transform:translate(-40px,18px)}}
+.orb{animation:drift 14s ease-in-out infinite}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.35}}
+.dot{animation:pulse 2.4s ease-in-out infinite}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<defs>
+<linearGradient id="bar-chorus-dark" x1="0" x2="1"><stop offset="0" stop-color="#F472B6"/><stop offset="1" stop-color="#7C5CFF"/></linearGradient>
+<filter id="blur-chorus-dark" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="50"/></filter>
+<clipPath id="clip-chorus-dark"><rect width="600" height="300" rx="18"/></clipPath>
+</defs>
+<g clip-path="url(#clip-chorus-dark)">
+<rect width="600" height="300" fill="#0A0C10"/>
+<g filter="url(#blur-chorus-dark)" opacity=".45"><circle class="orb" cx="540" cy="40" r="95" fill="#F472B6"/><circle class="orb" cx="610" cy="150" r="70" fill="#7C5CFF"/></g>
+<rect width="600" height="4" fill="url(#bar-chorus-dark)"/>
+</g>
+<rect x=".5" y=".5" width="599" height="299" rx="18" fill="none" stroke="#1F2430"/>
+<rect x="32" y="34" width="196" height="24" rx="12" fill="#141821" stroke="#1F2430"/>
+<circle class="dot" cx="46" cy="46" r="4" fill="#F472B6"/>
+<text x="56" y="50" class="status">PROTÓTIPO · PRIVADO</text>
+<text x="32" y="98" class="title">Chorus</text>
+
+<text x="32" y="132" class="desc">Um espaço onde os agentes de IA de um time</text><text x="32" y="160" class="desc">trabalham juntos dentro dos apps que o time já</text><text x="32" y="188" class="desc">usa, como GitHub, Slack e Jira.</text>
+<text x="32" y="224" class="en">A shared workspace where a team&#x27;s AI agents collaborate.</text>
+<rect x="32" y="244" width="85" height="30" rx="15" fill="#141821" stroke="#1F2430"/><text x="74" y="264" text-anchor="middle" class="tag">Next.js</text><rect x="124.75999999999999" y="244" width="50" height="30" rx="15" fill="#141821" stroke="#1F2430"/><text x="150" y="264" text-anchor="middle" class="tag">MCP</text><rect x="182.79999999999998" y="244" width="93" height="30" rx="15" fill="#141821" stroke="#1F2430"/><text x="230" y="264" text-anchor="middle" class="tag">Composio</text><rect x="284.24" y="244" width="93" height="30" rx="15" fill="#141821" stroke="#1F2430"/><text x="331" y="264" text-anchor="middle" class="tag">Tailwind</text>
+</svg>

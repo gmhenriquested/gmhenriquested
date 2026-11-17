@@ -9,67 +9,63 @@
   <a href="mailto:gabrielmhenriques15@gmail.com"><img src="https://img.shields.io/badge/gabrielmhenriques15%40gmail.com-18181B?style=flat-square&logo=gmail&logoColor=white" alt="E-mail"></a>
 </p>
 
-Gosto de transformar problemas reais em produto. Hoje meu foco está em **sistemas
-multiagente**: vários agentes de IA trabalhando juntos, usando ferramentas reais, com uma
-pessoa aprovando o que importa. No backend uso **Java e Spring Boot**; no front,
-**TypeScript e Next.js**.
+### Sobre
 
-<sub>I turn real problems into products. My focus today is <b>multi-agent systems</b>: AI agents working together with real tools, with a human approving what matters. Backend in Java and Spring Boot, frontend in TypeScript and Next.js.</sub>
+Gosto de transformar problemas reais em produto. Hoje estudo e construo **sistemas
+multiagente**: vários agentes de IA trabalhando juntos, usando ferramentas de verdade, com
+uma pessoa aprovando o que importa.
+
+<sub>I turn real problems into products. Today I study and build <b>multi-agent systems</b>: AI agents working together with real tools, with a human approving what matters.</sub>
 
 <br>
 
-### Projetos · Projects
+### Projetos
+
+<p>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-maestro-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/card-maestro-light.svg"><img alt="Maestro: equipe de agentes de IA que toca o dia a dia de uma empresa" src="assets/card-maestro-dark.svg" width="49%"></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-chorus-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/card-chorus-light.svg"><img alt="Chorus: espaço onde os agentes de IA de um time trabalham juntos" src="assets/card-chorus-dark.svg" width="49%"></picture>
+</p>
+<p>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-lastro-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/card-lastro-light.svg"><img alt="Lastro: conformidade do split payment da Reforma Tributária" src="assets/card-lastro-dark.svg" width="49%"></picture>
+  <a href="https://github.com/gmhenriquested/analisador-acoes"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-analisador-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/card-analisador-light.svg"><img alt="Analisador de Ações: nota de 0 a 100 para ações da B3" src="assets/card-analisador-dark.svg" width="49%"></picture></a>
+</p>
+
+<sub>Maestro, Chorus e Lastro estão em repositórios privados. Código e demo sob consulta. · <i>Private repos, code and demo on request.</i></sub>
+
+<br>
+
+### Stack
 
 <table>
   <tr>
-    <td width="50%" valign="top">
-      <b>Maestro</b>&nbsp;&nbsp;<sub><code>Next.js</code> <code>TypeScript</code> <code>Claude Agent SDK</code></sub>
-      <br><br>
-      Uma equipe de agentes de IA que toca o dia a dia de uma empresa. Cada agente tem seu papel, eles passam tarefas entre si e pedem aprovação antes de mexer com dinheiro.
-      <br><br>
-      <sub><i>A team of AI agents that runs a company's day to day, with human approval on money decisions.</i></sub>
-    </td>
-    <td width="50%" valign="top">
-      <b>Chorus</b>&nbsp;&nbsp;<sub><code>Next.js</code> <code>MCP</code> <code>Composio</code></sub>
-      <br><br>
-      Um espaço onde os agentes de IA de um time trabalham juntos usando os apps que o time já usa, como GitHub, Slack e Jira.
-      <br><br>
-      <sub><i>A shared workspace where a team's AI agents collaborate inside the tools the team already uses.</i></sub>
-    </td>
+    <td width="150"><b>Backend</b></td>
+    <td><picture><source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=java,spring,maven,python,fastapi,nodejs&theme=dark"><source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=java,spring,maven,python,fastapi,nodejs&theme=light"><img alt="Java, Spring, Maven, Python, FastAPI, Node.js" src="https://skillicons.dev/icons?i=java,spring,maven,python,fastapi,nodejs&theme=dark" height="40"></picture><br><sub>Spring Data JPA · Spring Security · WebFlux · Thymeleaf · SQLAlchemy · Zod</sub></td>
   </tr>
   <tr>
-    <td width="50%" valign="top">
-      <b>Lastro</b>&nbsp;&nbsp;<sub><code>Python</code> <code>PostgreSQL</code></sub>
-      <br><br>
-      Ajuda empresas sem time fiscal a cumprir o novo split payment da Reforma Tributária (IBS/CBS), com garantia em caso de erro.
-      <br><br>
-      <sub><i>Tax compliance for Brazil's new split payment system, backed by insurance.</i></sub>
-    </td>
-    <td width="50%" valign="top">
-      <a href="https://github.com/gmhenriquested/analisador-acoes"><b>Analisador de Ações</b></a>&nbsp;&nbsp;<sub><code>Java 17</code> <code>Spring Boot</code> <code>29 testes</code></sub>
-      <br><br>
-      Dá uma nota de 0 a 100 para ações da B3 a partir de 7 indicadores fundamentalistas, com explicação de cada um.
-      <br><br>
-      <sub><i>Scores Brazilian stocks from 7 fundamental indicators. Open source.</i></sub>
-    </td>
+    <td><b>Frontend</b></td>
+    <td><picture><source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=ts,js,react,nextjs,tailwind,html,css&theme=dark"><source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=ts,js,react,nextjs,tailwind,html,css&theme=light"><img alt="TypeScript, JavaScript, React, Next.js, Tailwind, HTML, CSS" src="https://skillicons.dev/icons?i=ts,js,react,nextjs,tailwind,html,css&theme=dark" height="40"></picture></td>
+  </tr>
+  <tr>
+    <td><b>IA</b></td>
+    <td><picture><source media="(prefers-color-scheme: dark)" srcset="assets/ai-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/ai-light.svg"><img alt="Claude API, Claude Agent SDK, MCP, Composio, Multiagentes" src="assets/ai-dark.svg" height="40"></picture></td>
+  </tr>
+  <tr>
+    <td><b>Dados e infra</b></td>
+    <td><picture><source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=postgres,sqlite,docker,git,github,githubactions&theme=dark"><source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=postgres,sqlite,docker,git,github,githubactions&theme=light"><img alt="PostgreSQL, SQLite, Docker, Git, GitHub, GitHub Actions" src="https://skillicons.dev/icons?i=postgres,sqlite,docker,git,github,githubactions&theme=dark" height="40"></picture><br><sub>Drizzle ORM · Alembic · Neon</sub></td>
+  </tr>
+  <tr>
+    <td><b>Testes</b></td>
+    <td><sub>JUnit 5 · Mockito · AssertJ · JaCoCo · pytest</sub></td>
+  </tr>
+  <tr>
+    <td><b>No dia a dia</b></td>
+    <td><picture><source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=idea,obsidian&theme=dark"><source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=idea,obsidian&theme=light"><img alt="IntelliJ IDEA, Obsidian" src="https://skillicons.dev/icons?i=idea,obsidian&theme=dark" height="40"></picture></td>
   </tr>
 </table>
 
-<sub>Maestro, Chorus e Lastro estão em desenvolvimento em repositórios privados. Código e demo sob consulta. · <i>Private repos, code and demo on request.</i></sub>
-
 <br>
 
-### Ferramentas · Stack
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=java,spring,ts,nextjs,react,python,postgres,docker,git&theme=dark&perline=9">
-  <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=java,spring,ts,nextjs,react,python,postgres,docker,git&theme=light&perline=9">
-  <img alt="Java, Spring, TypeScript, Next.js, React, Python, PostgreSQL, Docker, Git" src="https://skillicons.dev/icons?i=java,spring,ts,nextjs,react,python,postgres,docker,git&theme=dark&perline=9">
-</picture>
-
-<br>
-
-### Agora · Now
+### Agora
 
 - Levando o **Maestro** do ambiente de teste para apps reais: e-mail, CRM e banco.
 - Construindo meu site de portfólio. <sub><i>Building my portfolio website.</i></sub>

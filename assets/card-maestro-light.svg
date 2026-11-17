@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="300" viewBox="0 0 600 300" role="img" aria-label="Maestro: Uma equipe de agentes de IA que toca o dia a dia de uma empresa. Cada agente tem seu papel e pede aprovação antes de mexer com dinheiro.">
+<style>
+.title{font:700 30px -apple-system,BlinkMacSystemFont,"Segoe UI",Inter,Helvetica,Arial,sans-serif;letter-spacing:-.6px;fill:#111318}
+.desc{font:400 18px -apple-system,BlinkMacSystemFont,"Segoe UI",Inter,Helvetica,Arial,sans-serif;fill:#4B5260}
+.en{font:italic 400 14px -apple-system,BlinkMacSystemFont,"Segoe UI",Inter,Helvetica,Arial,sans-serif;fill:#6B7280}
+.tag{font:500 14px "SF Mono",ui-monospace,Menlo,Consolas,"Liberation Mono",monospace;fill:#3A404C}
+.status{font:600 11px -apple-system,BlinkMacSystemFont,"Segoe UI",Inter,Helvetica,Arial,sans-serif;letter-spacing:1.4px;fill:#4B5260}
+@keyframes drift{0%,100%{transform:translate(0,0)}50%{transform:translate(-40px,18px)}}
+.orb{animation:drift 14s ease-in-out infinite}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.35}}
+.dot{animation:pulse 2.4s ease-in-out infinite}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<defs>
+<linearGradient id="bar-maestro-light" x1="0" x2="1"><stop offset="0" stop-color="#7C5CFF"/><stop offset="1" stop-color="#22D3EE"/></linearGradient>
+<filter id="blur-maestro-light" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="50"/></filter>
+<clipPath id="clip-maestro-light"><rect width="600" height="300" rx="18"/></clipPath>
+</defs>
+<g clip-path="url(#clip-maestro-light)">
+<rect width="600" height="300" fill="#FAFAF8"/>
+<g filter="url(#blur-maestro-light)" opacity=".20"><circle class="orb" cx="540" cy="40" r="95" fill="#7C5CFF"/><circle class="orb" cx="610" cy="150" r="70" fill="#22D3EE"/></g>
+<rect width="600" height="4" fill="url(#bar-maestro-light)"/>
+</g>
+<rect x=".5" y=".5" width="599" height="299" rx="18" fill="none" stroke="#E4E5E9"/>
+<rect x="32" y="34" width="229" height="24" rx="12" fill="#F0F1F3" stroke="#E4E5E9"/>
+<circle class="dot" cx="46" cy="46" r="4" fill="#7C5CFF"/>
+<text x="56" y="50" class="status">EM CONSTRUÇÃO · PRIVADO</text>
+<text x="32" y="98" class="title">Maestro</text>
+
+<text x="32" y="132" class="desc">Uma equipe de agentes de IA que toca o dia a dia</text><text x="32" y="160" class="desc">de uma empresa. Cada agente tem seu papel e pede</text><text x="32" y="188" class="desc">aprovação antes de mexer com dinheiro.</text>
+<text x="32" y="224" class="en">AI agents that run a company, with a human in the loop.</text>
+<rect x="32" y="244" width="85" height="30" rx="15" fill="#F0F1F3" stroke="#E4E5E9"/><text x="74" y="264" text-anchor="middle" class="tag">Next.js</text><rect x="124.75999999999999" y="244" width="111" height="30" rx="15" fill="#F0F1F3" stroke="#E4E5E9"/><text x="180" y="264" text-anchor="middle" class="tag">TypeScript</text><rect x="243.56" y="244" width="163" height="30" rx="15" fill="#F0F1F3" stroke="#E4E5E9"/><text x="325" y="264" text-anchor="middle" class="tag">Claude Agent SDK</text><rect x="414.44" y="244" width="85" height="30" rx="15" fill="#F0F1F3" stroke="#E4E5E9"/><text x="457" y="264" text-anchor="middle" class="tag">Drizzle</text>
+</svg>
